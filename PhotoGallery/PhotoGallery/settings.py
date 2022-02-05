@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-*tuc(%lnrf6ld+(-$g_0n3&d0mhz(qu0zd*y*boui!-4pvla=r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ 'https://photogallery14.herokuapp.com/' ,'127.0.0.1']
 
 
 # Application definition
@@ -135,12 +135,12 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AWS_QUERYSTRING_AUTH = False
+# AWS_QUERYSTRING_AUTH = False
 
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
-AWS_ACCESS_KEY_ID = 'AKIATO5GT32S5PADL6PE'
+# AWS_ACCESS_KEY_ID = 'AKIATO5GT32S5PADL6PE'
 
-AWS_SECRET_ACCESS_KEY = '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'
+# AWS_SECRET_ACCESS_KEY = 'qNkMiHsHFWPft9fwkMJeI5tlQV5OsZhBjmVWj6iC'
 
-AWS_STORAGE_BUCKET_NAME = 'photogallery14'
+# AWS_STORAGE_BUCKET_NAME = 'photogallery14'
